@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEDEDE;
+}
+#calculadora{
+    width: 350px;
+    padding: 16px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #00000020;
+}
+#calculadora input{
+    width: 100%;
+    display: block;
+    height: 40px;
+    margin-bottom: 16px;
+}
+#calculadora ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+#calculadora ul li{
+    width: 20%;
+}
+#calculadora ul li button{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
